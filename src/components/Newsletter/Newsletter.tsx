@@ -1,14 +1,13 @@
 import styles from "./Newsletter.module.css";
 
+import newsletter from "../assets/svg/newsletter.svg";
+
 export function Newsletter() {
   return (
     <div className={styles.container}>
       <div className={styles.newsletterContainer}>
         <div className={styles.newsletterContainerImg}>
-          <img
-            src="/src/components/assets/svg/newsletter.svg"
-            alt="Imagem Newsletter"
-          />
+          <img src={newsletter} alt="Imagem Newsletter" />
         </div>
         <div className={styles.newsletterContainerTitleInput}>
           <h1 className={styles.newsletterTitle}>NEWSLETTER</h1>
