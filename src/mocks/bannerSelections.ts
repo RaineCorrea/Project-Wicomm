@@ -1,7 +1,7 @@
 export const bannerSelections = [
   {
     id: 1,
-    img: "/assets/svg/img-selection.svg",
+    img: "/assets/img-selection.svg",
     title: `Lorem Ipsum
             Dolor Sit`,
     subTitle: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
