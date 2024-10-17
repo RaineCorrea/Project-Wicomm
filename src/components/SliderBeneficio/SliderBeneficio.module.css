@@ -1,0 +1,101 @@
+.container {
+  width: 100%;
+  max-width: 1179px;
+  background: var(--red-500);
+  margin: 0 auto;
+  padding: 29px 75px;
+}
+
+.subContainer {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ffffff;
+}
+
+.subContainerTextMain {
+  display: flex;
+  align-items: center;
+  border-right: 1px solid #ffffff;
+  padding: 0 20px 0 13px;
+  gap: 5px;
+}
+
+.textNumber {
+  font-family: "Oswald", sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 140px;
+  line-height: 207px;
+  color: var(--white);
+}
+
+.subContainerText {
+  display: flex;
+  flex-direction: column;
+}
+
+.subContainerText span {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 18px;
+  color: var(--white);
+}
+
+.subContainerText span:nth-child(-n + 2) {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 38px;
+  color: var(--white);
+}
+
+.descriptions {
+  display: flex;
+  flex-direction: column;
+}
+
+.containerDescription {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border-right: 1px solid #ffffff;
+  padding: 23px 16px 18px;
+}
+
+.containerDescriptionMain {
+  display: flex;
+  gap: 20px;
+}
+
+.subContainerDescription {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 716px;
+}
+
+.texts {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 12px;
+}
+
+.texts span {
+  font-weight: 700;
+  font-size: 22px;
+  color: var(--white);
+}
+
+.subContainerDescriptionMain {
+  display: flex;
+}
+
+.description {
+  font-weight: 300;
+  font-size: 14px;
+  color: var(--white);
+}
+
+.containerSwiper {
+  border-top: 1px solid #ffffff;
+  padding: 20px 0;
+}

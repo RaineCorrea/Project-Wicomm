@@ -1,0 +1,12 @@
+.container {
+  display: flex;
+  gap: 20px;
+  width: max-content;
+}
+
+.title {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 23px;
+  color: var(--white);
+}

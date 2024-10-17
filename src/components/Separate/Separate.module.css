@@ -1,0 +1,7 @@
+.separate {
+  background: var(--black-900);
+  width: 100%;
+  max-width: 1179px;
+  height: 9px;
+  margin: 0 auto;
+}

@@ -1,0 +1,35 @@
+.promotionsBanners {
+  position: relative;
+}
+
+.promotionsBannersImg {
+  width: 100%;
+  display: flex;
+}
+
+.promotionsBannersText {
+  position: absolute;
+  top: 70%;
+  left: 40%;
+}
+
+.promotionsBannersTitle {
+  font-size: 32px;
+  font-weight: 700;
+  color: var(--white);
+  margin-bottom: 40px;
+}
+
+.promotionsBannersSubTitle {
+  color: var(--white);
+  margin-bottom: 40px;
+}
+
+.promotionsBannersButton {
+  border: transparent;
+  border-radius: 29px;
+  padding: 14px 30px;
+  background: var(--black-900);
+  color: var(--white);
+  cursor: pointer;
+}

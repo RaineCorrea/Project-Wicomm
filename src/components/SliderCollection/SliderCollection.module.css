@@ -1,0 +1,15 @@
+.container {
+  margin: 0 20px;
+  padding-bottom: 73px;
+}
+
+.textCollection {
+  display: flex;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: 8px;
+  padding: 34px 0;
+  color: var(--black-900);
+}

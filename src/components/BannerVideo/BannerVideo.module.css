@@ -1,0 +1,59 @@
+.container {
+  background: var(--gray-100);
+  margin-bottom: 69px;
+}
+
+.bannerContent {
+  position: relative;
+  display: flex;
+  gap: 84px;
+  padding: 42px 0;
+  width: 100%;
+  max-width: 1026px;
+  margin: 0 auto;
+  padding-top: 70px;
+}
+
+.bannerText {
+  position: relative;
+  font-size: 70px;
+  font-weight: 400;
+  line-height: 88px;
+  color: var(--black-100);
+  z-index: 99;
+}
+
+.bannerImg {
+  position: absolute;
+  top: 25px;
+  right: 58%;
+}
+
+.bannerSubTitle {
+  font-size: 14px;
+  line-height: 25px;
+  padding: 55px 0 46px 0;
+  color: var(--black-100);
+}
+
+.containerVideo {
+  padding-bottom: 46px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.linkGat {
+  font-size: 20px;
+  line-height: 25px;
+
+  color: var(--black-900);
+
+  background: transparent;
+  border-radius: 29px;
+  border: 1px solid;
+  text-decoration: none;
+  padding: 15px 50px;
+  cursor: pointer;
+  align-self: start;
+}

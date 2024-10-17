@@ -1,0 +1,55 @@
+.container {
+  width: 100%;
+}
+
+.bannerContent {
+  position: relative;
+  display: flex;
+}
+
+.bannerImg {
+  width: 100%;
+}
+
+.containerSelection {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 282px;
+  background: var(--white);
+  border: 1px solid #000000;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 38px;
+  padding: 33px 0 27px 32px;
+  color: var(--black-900);
+}
+
+.subTitle,
+.description {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 18px;
+  padding: 0 18px 27px 32px;
+  color: var(--black-900);
+}
+
+.linkSelection {
+  font-size: 17px;
+  line-height: 21px;
+  text-decoration: none;
+  color: var(--black-900);
+  padding: 16px 30px;
+  border: 1px solid;
+  border-radius: 29px;
+  max-width: 182px;
+  width: 100%;
+  margin-left: 32px;
+  margin-bottom: 22px;
+}

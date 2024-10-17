@@ -1,0 +1,99 @@
+.container {
+  width: 100%;
+  position: fixed;
+  z-index: 999;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 1240px;
+  background: var(--black-500);
+  border: 1px solid #efefef;
+  margin: 30px auto;
+  height: 40px;
+}
+
+.containerLogo {
+  height: 40px;
+  background: var(--gray-100);
+}
+
+.containerLogo img {
+  padding: 10px 20px 0 20px;
+}
+
+.containerProdutos,
+.containerColecoes {
+  padding: 12px 20px;
+  border-right: 1px solid #efefef;
+}
+
+.textProdutos {
+  font-weight: 700;
+}
+
+.textProdutos,
+.textColecoes {
+  display: flex;
+  gap: 10px;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 18px;
+  color: var(--white);
+}
+
+.containerBlog {
+  flex: 1;
+  justify-content: end;
+  display: flex;
+  gap: 20px;
+  padding-right: 10px;
+}
+
+.containerBlog a {
+  font-size: 14px;
+  line-height: 18px;
+  text-decoration: none;
+  color: var(--white);
+}
+
+.containerSearch {
+  border-left: 1px solid #efefef;
+  border-right: 1px solid #efefef;
+}
+
+.buttonSearch {
+  background: transparent;
+  border: 0;
+  padding: 12px;
+}
+
+.inputSearch {
+  background: var(--black-500);
+  border: 0;
+  outline: transparent;
+  font-weight: 200;
+  font-size: 12px;
+  line-height: 15px;
+  width: 200px;
+  color: var(--white);
+}
+
+.inputSearch::placeholder {
+  color: var(--white);
+}
+
+.containerLinks {
+  display: flex;
+}
+
+.linkAccount {
+  padding: 10px;
+  border-right: 1px solid #efefef;
+}
+
+.linkCart {
+  padding: 12px 20px;
+}

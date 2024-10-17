@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid;
+  border-radius: 29px;
+  padding: 22px 0;
+  align-items: center;
+  height: 59px;
+}
+
+.collectionLink {
+  font-size: 20px;
+  line-height: 25px;
+  text-decoration: none;
+  color: var(--black-900);
+}
