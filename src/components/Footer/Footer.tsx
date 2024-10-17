@@ -11,6 +11,11 @@ import certificado1 from "../assets/svg/certificado-1.svg";
 import certificado2 from "../assets/svg/certificado-2.svg";
 import certificado3 from "../assets/svg/certificado-3.svg";
 
+import instagram from "../assets/svg/instagram.svg";
+import youtube from "../assets/svg/youtube.svg";
+import linkedin from "../assets/svg/linkedin.svg";
+import facebook from "../assets/svg/facebook.svg";
+
 export function Footer() {
   return (
     <>
@@ -83,28 +88,16 @@ export function Footer() {
               <span>REDES SOCIAIS</span>
               <div className={styles.subfooterIconsSocial}>
                 <a href="#">
-                  <img
-                    src="/src/components/assets/svg/instagram.svg"
-                    alt="Icone Instagram"
-                  />
+                  <img src={instagram} alt="Icone Instagram" />
                 </a>
                 <a href="#">
-                  <img
-                    src="/src/components/assets/svg/youtube.svg"
-                    alt="Icone Youtube"
-                  />
+                  <img src={youtube} alt="Icone Youtube" />
                 </a>
                 <a href="#">
-                  <img
-                    src="/src/components/assets/svg/linkedin.svg"
-                    alt="Icone Linkedin"
-                  />
+                  <img src={linkedin} alt="Icone Linkedin" />
                 </a>
                 <a href="#">
-                  <img
-                    src="/src/components/assets/svg/facebook.svg"
-                    alt="Icone Facebook"
-                  />
+                  <img src={facebook} alt="Icone Facebook" />
                 </a>
               </div>
             </div>
